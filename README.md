@@ -4,4 +4,4 @@ Check weather in your city.
 
 **:-)**
 
-[**See online**](https://lucascoorek.github.io/js_quiz/)
+[**See online**](https://lucascoorek.github.io/weather_app/)
