@@ -30,7 +30,7 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({ filename: "[name].[contentHash].css" }),
     new CleanWebpackPlugin(),
-    new CopyPlugin([{ from: "./src/assets", to: "./src/" }])
+    new CopyPlugin([{ from: "./src/assets", to: "./src/assets" }])
   ],
   module: {
     rules: [

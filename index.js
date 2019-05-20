@@ -10,11 +10,11 @@ const cardIcon = document.querySelector(".icon img");
 
 const updateUI = ({ location, conditions }) => {
   const imgSrc = conditions.IsDayTime
-    ? "../src/assets/img/day.svg"
-    : "../src/assets/img/night.svg";
+    ? "./src/assets/img/day.svg"
+    : "./src/assets/img/night.svg";
   cardImg.setAttribute("src", imgSrc);
 
-  const iconSrc = `../src/assets/img/icons/${conditions.WeatherIcon}.svg`;
+  const iconSrc = `./src/assets/img/icons/${conditions.WeatherIcon}.svg`;
   cardIcon.setAttribute("src", iconSrc);
 
   cityDets.innerHTML = `
