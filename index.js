@@ -35,6 +35,7 @@ form.addEventListener("submit", e => {
     .then(data => updateUI(data))
     .catch(error => console.log(error));
   localStorage.setItem("city", city);
+  window.scrollTo(0, document.body.scrollHeight);
 });
 
 const city = localStorage.getItem("city");
