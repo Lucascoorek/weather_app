@@ -1,6 +1,6 @@
 export default class Forecast {
   constructor() {
-    this.key = "XMKlXO38GCuOsGonhqG3wSrL6MTCScQr";
+    this.key = "8qB5DiGAaxRdrFZy1kiMAiWGoHKhlAEK";
     this.baseURI =
       "http://dataservice.accuweather.com/locations/v1/cities/search";
     this.baseCondURI =
