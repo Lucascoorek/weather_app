@@ -2,9 +2,9 @@ export default class Forecast {
   constructor() {
     this.key = "8qB5DiGAaxRdrFZy1kiMAiWGoHKhlAEK";
     this.baseURI =
-      "http://dataservice.accuweather.com/locations/v1/cities/search";
+      "https://dataservice.accuweather.com/locations/v1/cities/search";
     this.baseCondURI =
-      "http://dataservice.accuweather.com/currentconditions/v1/";
+      "https://dataservice.accuweather.com/currentconditions/v1/";
   }
   async getLocation(city) {
     const query = `?apikey=${this.key}&q=${city}`;
