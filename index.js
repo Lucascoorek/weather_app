@@ -1,6 +1,6 @@
-import "../src/styles/main.scss";
+import "./src/styles/main.scss";
 import "@babel/polyfill";
-import Forecast from "../src/modules/forecast";
+import Forecast from "./src/modules/forecast";
 const forecast = new Forecast();
 const form = document.querySelector("form");
 const cityDets = document.querySelector(".card_details");

@@ -4,7 +4,7 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development", //doesn't minify main.js(optional)
   devtool: "none", // code is readable in main.js (optional you can delete this line if you don't want to see the code in main.js no minified)
-  entry: "./src/index.js",
+  entry: "./index.js",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
